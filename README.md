@@ -2,10 +2,10 @@
 
 
 # 🧠 Overview:
-Predict whether a customer poses a credit risk using classification models.
-Includes a web app built in Streamlit and deployed using Docker.
-![App UI](images/app.png)  
-![App U2](images/app2.png)
+Predict whether a customer poses a credit risk using classification models.  
+Includes a web app built in Streamlit and deployed using Docker.  
+![App UI](images/app.png)   
+![App U2](images/app2.png)  
 
 
 # 🗂️ Contents:
@@ -81,5 +81,6 @@ Flag high-risk applications for manual review
 
 Risk segments could be used for pre-approval, dynamic interest rate offers, or flagging for manual review.
 
-#📬 Contact:
+#📬 Contact:  
+Email: penieljegede@gmail.com
 Include LinkedIn or Portfolio links.
