@@ -21,16 +21,16 @@ Dockerized deployment (Dockerfile)
 
 
 # 🧪 Tools Used:
-Python (Pandas, Scikit-learn, XGBoost,Seaborn)
-Streamlit
-Docker
-Jupyter Notebook
+Python (Pandas, Scikit-learn, XGBoost,Seaborn)  
+Streamlit  
+Docker  
+Jupyter Notebook  
 
 
 📊 Model:
-Trained on laotse/credit-risk-dataset
-Models evaluated: XGBoost, Random Forest
-Best model: XGBoost — 91% AUC on test set
+Trained on laotse/credit-risk-dataset  
+Models evaluated: XGBoost, Random Forest  
+Best model: XGBoost — 91% AUC on test set  
 
 # 🚀 How to Run the App
 You can run this Streamlit web app either directly on your machine or using Docker.
