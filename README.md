@@ -35,12 +35,14 @@ Best model: XGBoost — 91% AUC on test set
 # 🚀 How to Run the App
 You can run this Streamlit web app either directly on your machine or using Docker.
 
-**Option 1: Run Locally (No Docker)🔧**   
-Clone the repository:  
-git clone https://github.com/your-username/credit-risk-analysis.git
-cd credit-risk-analysis
+# Option 1: Run Locally (No Docker)🔧.
+  
+**Clone the repository:**  
+git clone https://github.com/PenielJegede/Credit-Risk-Prediction.git  
 
-Install dependencies:  
+cd credit-risk-analysis  
+
+**Install dependencies:**  
 pip install -r requirements.txt
 Run the app:
 streamlit run app/app.py
@@ -50,14 +52,19 @@ Visit http://localhost:8501 to interact with the app.
 
 
       
-**Option 2: Run with Docker🐳**  
-Build the Docker image:
-docker build -t credit-risk-app .
+# Option 2: Run with Docker🐳  
 
-Run the container:
-docker run -p 8501:8501 credit-risk-app
+**Clone the repository:**  
+git clone https://github.com/PenielJegede/Credit-Risk-Prediction.git
+cd Credit-Risk-Prediction  
+  
+**Build the Docker image:**
+docker build -t Credit-Risk-Prediction  .
+  
+**Run the container:**  
+docker run -p 8501:8501 Credit-Risk-Prediction  
 
-Open your browser:
+**Open your browser:**  
 Go to http://localhost:8501
 
 
