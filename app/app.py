@@ -5,7 +5,6 @@ import joblib
 import pandas as pd
 
 
-randomforest=joblib.load('models/random_forest_model.pkl')
 xgboost=joblib.load('models/xgboost_model.pkl')
 scaler=joblib.load('models/scaler.pkl')
 
