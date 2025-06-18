@@ -58,7 +58,7 @@ Visit http://localhost:8501 to interact with the app.
 git clone https://github.com/PenielJegede/Credit-Risk-Prediction.git
 cd Credit-Risk-Prediction  
   
-**Build the Docker image:**
+**Build the Docker image:**  
 docker build -t Credit-Risk-Prediction  .
   
 **Run the container:**  
