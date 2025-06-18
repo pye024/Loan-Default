@@ -40,7 +40,7 @@ You can run this Streamlit web app either directly on your machine or using Dock
 # Option 1: Run Locally (No Docker)🔧.
   
 **Clone the repository:**  
-git clone https://github.com/Peniel-24/Credit-Risk-Prediction.git  
+git clone https://github.com/pye024/Credit-Risk-Prediction.git  
 
 cd credit-risk-analysis  
 
@@ -57,7 +57,7 @@ Visit http://localhost:8501 to interact with the app.
 # Option 2: Run with Docker🐳  
 
 **Clone the repository:**  
-git clone https://github.com/Peniel-24/Credit-Risk-Prediction.git
+git clone https://github.com/pye024/Credit-Risk-Prediction.git
 cd Credit-Risk-Prediction  
   
 **Build the Docker image:**  
@@ -82,7 +82,3 @@ Adjust interest rates
 Flag high-risk applications for manual review
 
 Risk segments could be used for pre-approval, dynamic interest rate offers, or flagging for manual review.
-
-#📬 Contact:  
-Email: penieljegede@gmail.com
-Include LinkedIn or Portfolio links.
