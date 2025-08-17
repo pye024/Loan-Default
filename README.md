@@ -7,13 +7,13 @@
 
 > **An end-to-end machine learning solution for credit risk assessment with 91% AUC performance**
 
-## 📖 Executive Summary
+## Project Summary
 
 This project delivers a production-ready credit risk prediction system that helps financial institutions make data-driven lending decisions. Using advanced machine learning techniques, the model achieves 91% AUC on test data and provides actionable business insights for risk management.
 
 **🔗 [Try the Live Application](https://credit-risk-predicti0n.streamlit.app/)**
 
-## 🖼️ Application Preview
+## Application Preview
 
 <div align="center">
 
@@ -146,4 +146,3 @@ This project demonstrates practical machine learning engineering skills includin
 
 ---
 
-*Built with ❤️ using Python, XGBoost, and Streamlit*
