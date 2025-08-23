@@ -25,11 +25,11 @@ This project delivers a production-ready credit risk prediction system that help
 
 ## ⚡ Key Features
 
-- **High-Performance ML Models**: XGBoost classifier achieving 91% AUC
+- **High-Performance ML Models**: XGBoost classifier achieving 86% AUC
 - **Interactive Web Application**: User-friendly Streamlit interface
 - **Production-Ready Deployment**: Docker containerization for scalability
 - **Comprehensive Analysis**: Complete EDA and feature engineering pipeline
-- **Business Intelligence**: Actionable insights for risk management
+
 
 ## 🏗️ Technical Architecture
 
@@ -41,30 +41,23 @@ This project delivers a production-ready credit risk prediction system that help
 └── 📋 Requirements            → requirements.txt
 ```
 
-## 🧠 Machine Learning Pipeline
-
-### Dataset
-- **Source**: Laotse Credit Risk Dataset
-- **Features**: Customer demographics, financial history, loan characteristics
-- **Target**: Binary classification (Default/Non-default)
-
 ### Model Performance
 | Model | AUC Score | Precision | Recall |
 |-------|-----------|-----------|---------|
-| **XGBoost** | **91%** | 89% | 87% |
-| Random Forest | 88% | 85% | 84% |
-
+| **XGBoost** | **86%** | 92% | 87% |
+| Random Forest | 84% | 87% | 85% |
+| Logistic Regression| 74% | 70% | 75% |
 ### Key Predictive Features
 - Debt-to-income ratio
 - Credit utilization
-- Payment history
-- Income stability
+- Previous Default history
+- Employment length
 - Loan amount relative to income
 
 ## 🛠️ Technology Stack
 
 **Core Technologies:**
-- **Python **
+- **Python**
 - **Scikit-learn**
 - **XGBoost**
 - **Pandas & NumPy**
@@ -108,41 +101,11 @@ docker build -t credit-risk-app .
 # Run container
 docker run -p 8501:8501 credit-risk-app
 ```
-
 **Access**: Navigate to [http://localhost:8501](http://localhost:8501)
-
-## 💼 Business Impact & Applications
-
-### Risk Assessment Capabilities
-- **Automated Screening**: Pre-qualify loan applications with 91% accuracy
-- **Dynamic Pricing**: Adjust interest rates based on predicted risk levels
-- **Portfolio Management**: Identify high-risk segments for proactive management
-
-### Operational Benefits
-- **Reduced Manual Review**: Focus human expertise on edge cases
-- **Faster Decision Making**: Real-time risk scoring for improved customer experience
-- **Regulatory Compliance**: Transparent, auditable decision-making process
 
 ### Key Business Insights
 - Higher income customers with stable employment show significantly lower default rates
 - Debt-to-income ratio above 40% correlates strongly with increased risk
 - Credit utilization patterns are highly predictive of future payment behavior
-
-## 📊 Model Interpretability
-
-The system provides transparent decision-making through:
-- **Feature importance rankings** for model explainability
-- **SHAP values** for individual prediction explanations
-- **Risk score distributions** across different customer segments
-
-## 👨‍💻 About This Project
-
-This project demonstrates practical machine learning engineering skills including:
-- Feature engineering and selection techniques
-- Hyperparameter optimization strategies
-- Model evaluation and validation methodologies
-- Production deployment best practices
-- Business stakeholder communication
-
 ---
 

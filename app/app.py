@@ -5,7 +5,7 @@ import joblib
 import pandas as pd
 
 
-xgboost=joblib.load('models/xgboost_model.pkl')
+xgboost=joblib.load('models/xgboost.pkl')
 scaler=joblib.load('models/scaler.pkl')
 
 st.title("💳 Credit Risk Prediction")
