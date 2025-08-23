@@ -1,4 +1,4 @@
-# 🎯 Credit Risk Modeling & Prediction System
+# Credit Risk Modeling & Prediction System
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-ff6b6b?style=for-the-badge&logo=streamlit)](https://credit-risk-predicti0n.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)](https://www.python.org/)
@@ -11,7 +11,7 @@
 
 This project delivers a production-ready credit risk prediction system that helps financial institutions make data-driven lending decisions. Usingmachine learning techniques, the model achieves 86% AUC on test data and provides actionable business insights for risk management.
 
-**🔗 [Try the Live Application](https://credit-risk-predicti0n.streamlit.app/)**
+** [Try the Live Application](https://credit-risk-predicti0n.streamlit.app/)**
 
 ## Application Preview
 
@@ -23,7 +23,7 @@ This project delivers a production-ready credit risk prediction system that help
 
 </div>
 
-## ⚡ Key Features
+##  Key Features
 
 - **High-Performance ML Models**: XGBoost classifier achieving 86% AUC
 - **Interactive Web Application**: User-friendly Streamlit interface
@@ -31,14 +31,14 @@ This project delivers a production-ready credit risk prediction system that help
 - **Comprehensive Analysis**: Complete EDA and feature engineering pipeline
 
 
-## 🏗️ Technical Architecture
+## 🏗 Technical Architecture
 
 ```
-├── 📊 Data Analysis & EDA     → notebooks/
-├── 🤖 Trained Models          → models/
-├── 🌐 Web Application         → app/app.py
-├── 🐳 Docker Configuration    → Dockerfile
-└── 📋 Requirements            → requirements.txt
+├──  Data Analysis & EDA     → notebooks/
+├──  Trained Models          → models/
+├──  Web Application         → app/app.py
+├──  Docker Configuration    → Dockerfile
+└──  Requirements            → requirements.txt
 ```
 
 ### Model Performance
@@ -54,7 +54,7 @@ This project delivers a production-ready credit risk prediction system that help
 - Employment length
 - Loan amount relative to income
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 **Core Technologies:**
 - **Python**
@@ -70,7 +70,7 @@ This project delivers a production-ready credit risk prediction system that help
 - **Docker** - Containerization for deployment
 - **Jupyter Notebook** - Development and analysis environment
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Option 1: Local Development Setup
 
