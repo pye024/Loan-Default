@@ -31,7 +31,7 @@ This project delivers a production-ready credit risk prediction system that help
 - **Comprehensive Analysis**: Complete EDA and feature engineering pipeline
 
 
-## 🏗 Technical Architecture
+##  Technical Architecture
 
 ```
 ├──  Data Analysis & EDA     → notebooks/
@@ -103,9 +103,4 @@ docker run -p 8501:8501 credit-risk-app
 ```
 **Access**: Navigate to [http://localhost:8501](http://localhost:8501)
 
-### Key Business Insights
-- Higher income customers with stable employment show significantly lower default rates
-- Debt-to-income ratio above 40% correlates strongly with increased risk
-- Credit utilization patterns are highly predictive of future payment behavior
----
 
