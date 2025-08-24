@@ -4,7 +4,7 @@ import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
+#from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from imblearn.over_sampling import SMOTE
@@ -37,7 +37,7 @@ print(roc_auc_score(y_test, y_pred_lg))
 print(confusion_matrix(y_test, y_pred_lg))
 print(classification_report(y_test, y_pred_lg))
 
-
+'''
 """#RandomForest"""
 rf=RandomForestClassifier(n_estimators=200,random_state=42)
 rf.fit(xtrain,y_resampled)
@@ -48,7 +48,7 @@ y_pred_rf = rf.predict(xtest)
 print(roc_auc_score(y_test, y_pred_rf))
 print(confusion_matrix(y_test, y_pred_rf))
 print(classification_report(y_test, y_pred_rf))
-
+'''
 
 """#XgBoost"""
 
