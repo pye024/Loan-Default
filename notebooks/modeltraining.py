@@ -65,8 +65,9 @@ print(roc_auc_score(y_test, y_pred))
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 
+
+
 """#Exporting Model for Deployment"""
 joblib.dump(lg,'models/logistic_regression.pkl')
-joblib.dump(rf, 'models/random_forest.pkl')
 joblib.dump(xg, 'models/xgboost_model.pkl')
 joblib.dump(stsc, 'models/scaler.pkl')
