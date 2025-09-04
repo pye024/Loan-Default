@@ -68,6 +68,6 @@ print(classification_report(y_test, y_pred))
 
 
 """#Exporting Model for Deployment"""
-joblib.dump(lg,'models/logistic_regression.pkl')
+#joblib.dump(lg,'models/logistic_regression.pkl')
 joblib.dump(xg, 'models/xgboost.pkl')
 joblib.dump(stsc, 'models/scaler.pkl')
