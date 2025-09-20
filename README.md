@@ -11,7 +11,7 @@
 
 This project delivers a production-ready credit risk prediction system that helps financial institutions make data-driven lending decisions. Usingmachine learning techniques, the model achieves 86% AUC on test data and provides actionable business insights for risk management.
 
-** [Try the Live Application](https://credit-risk-predicti0n.streamlit.app/)**
+# [Try the Live Application](https://credit-risk-predicti0n.streamlit.app/)
 
 ## Application Preview
 
@@ -23,7 +23,7 @@ This project delivers a production-ready credit risk prediction system that help
 
 </div>
 
-##  Key Features
+## Features
 
 - **High-Performance ML Models**: XGBoost classifier achieving 86% AUC
 - **Interactive Web Application**: User-friendly Streamlit interface
@@ -31,7 +31,7 @@ This project delivers a production-ready credit risk prediction system that help
 - **Comprehensive Analysis**: Complete EDA and feature engineering pipeline
 
 
-##  Technical Architecture
+##  Project Structure
 
 ```
 ├──  Data Analysis & EDA     → notebooks/
