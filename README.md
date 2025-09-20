@@ -23,7 +23,7 @@ This project delivers a production-ready credit risk prediction system that help
 
 </div>
 
-##  Key Features
+## Features
 
 - **High-Performance ML Models**: XGBoost classifier achieving 86% AUC
 - **Interactive Web Application**: User-friendly Streamlit interface
@@ -31,7 +31,7 @@ This project delivers a production-ready credit risk prediction system that help
 - **Comprehensive Analysis**: Complete EDA and feature engineering pipeline
 
 
-##  Technical Architecture
+##  Project Structure
 
 ```
 ├──  Data Analysis & EDA     → notebooks/
