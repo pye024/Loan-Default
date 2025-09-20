@@ -8,6 +8,17 @@ import pandas as pd
 xgboost=joblib.load('models/xgboost.pkl')
 scaler=joblib.load('models/scaler.pkl')
 
+st.markdown("""
+        <style>
+               .block-container {
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    padding-left: 5rem;
+                    padding-right: 5rem;
+                }
+        </style>
+        """, unsafe_allow_html=True)
+
 st.title("💳 Credit Risk Prediction")
 st.markdown("Predict whether a person is likely to default on a loan based on their financial profile.")
 
@@ -62,6 +73,8 @@ features=np.array([
     grade_map[loan_grade],                  
     short_credit_history
 ])
+
+
 
 scaled_features = scaler.transform([features])
 
