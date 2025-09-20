@@ -7,7 +7,7 @@ import pandas as pd
 
 xgboost=joblib.load('models/xgboost.pkl')
 scaler=joblib.load('models/scaler.pkl')
-
+st.set_page_config(layout="wide")
 st.markdown("""
         <style>
                .block-container {
@@ -29,7 +29,7 @@ with st.sidebar:
         This app predicts the likelihood of loan default using a machine learning model.
         Provide your financial details, and click **Predict** to get a risk estimate.
     """)
-st.subheader("📊 Financial Profile Inputs")
+
 #Inputs
 col1, col2 = st.columns(2)
 with col1:
