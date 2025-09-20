@@ -1,4 +1,5 @@
 """ImportLibraries and data"""
+import os
 import pandas as pd
 import joblib
 from sklearn.model_selection import train_test_split
@@ -68,6 +69,8 @@ print(classification_report(y_test, y_pred))
 
 
 """#Exporting Model for Deployment"""
+
+os.makedirs('models', exist_ok=True)
 #joblib.dump(lg,'models/logistic_regression.pkl')
 joblib.dump(xg, 'models/xgboost.pkl')
 joblib.dump(stsc, 'models/scaler.pkl')
