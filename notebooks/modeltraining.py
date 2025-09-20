@@ -11,7 +11,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 from imblearn.over_sampling import SMOTE
 from sklearn.metrics import roc_auc_score
 
-df = pd.read_csv('data/data.csv')
+df = pd.read_csv('../data/data1.csv')
 
 y = df['default_status']
 x = df.drop(columns=['default_status'])
