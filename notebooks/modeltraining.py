@@ -70,7 +70,6 @@ print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 
 
-
 """#Exporting Model for Deployment"""
 
 os.makedirs('models', exist_ok=True)
