@@ -15,9 +15,7 @@ This project delivers a production-ready credit risk prediction system that help
 
 ## Analysis 
 
-For a detailed, scrollable walkthrough of this project, visit the [Full Project Walkthrough](https://docs.google.com/document/d/e/2PACX-1vTPdZUJ0J4-dcrqLY2DeY7Jf0rzhabkptph1iYf3hcfdQySvsAXz_WaC-S2xSgQxXJD6uwoLL1L86y4/pub).
-
-Or use the badge below for a more visual call-to-action:
+For a detailed, scrollable walkthrough of this project, visit the [Full Project Walkthrough]
 
 [![Read the Docs](https://img.shields.io/badge/Project%20Walkthrough-Click%20Here-blue?style=for-the-badge)](https://docs.google.com/document/d/e/2PACX-1vTPdZUJ0J4-dcrqLY2DeY7Jf0rzhabkptph1iYf3hcfdQySvsAXz_WaC-S2xSgQxXJD6uwoLL1L86y4/pub)
 
