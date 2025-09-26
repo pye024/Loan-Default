@@ -5,13 +5,22 @@
 [![Machine Learning](https://img.shields.io/badge/ML-XGBoost%20%7C%20Random%20Forest-green?style=flat-square)](https://xgboost.readthedocs.io/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ed?style=flat-square&logo=docker)](https://www.docker.com/)
 
-> **An end-to-end machine learning solution for credit risk assessment with 91% AUC performance**
+> **An end-to-end machine learning solution for credit risk assessment**
 
 ## Project Summary
 
 This project delivers a production-ready credit risk prediction system that helps financial institutions make data-driven lending decisions. Usingmachine learning techniques, the model achieves 86% AUC on test data and provides actionable business insights for risk management.
 
 # [Try the Live Application](https://credit-risk-predicti0n.streamlit.app/)
+
+## Analysis 
+
+For a detailed, scrollable walkthrough of this project, visit the [Full Project Walkthrough](https://docs.google.com/document/d/e/2PACX-1vRVHWc39PfUrtM8ZlB-wr26jMLCwgv0sX1lFOONKZhnXvD3pIO0-ItIns1oZnEjQKSTyDau6swf5adT/pub).
+
+Or use the badge below for a more visual call-to-action:
+
+[![Read the Docs](https://img.shields.io/badge/Project%20Walkthrough-Click%20Here-blue?style=for-the-badge)](https://docs.google.com/document/d/e/2PACX-1vRVHWc39PfUrtM8ZlB-wr26jMLCwgv0sX1lFOONKZhnXvD3pIO0-ItIns1oZnEjQKSTyDau6swf5adT/pub)
+
 
 ## Application Preview
 
