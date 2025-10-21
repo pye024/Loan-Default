@@ -54,6 +54,7 @@ For a detailed, scrollable walkthrough of this project, visit the Full Project W
 | **XGBoost** | **86%** | 92% | 87% |
 | Random Forest | 84% | 87% | 85% |
 | Logistic Regression| 74% | 70% | 75% |
+
 ### Key Predictive Features
 - Debt-to-income ratio
 - Credit utilization
