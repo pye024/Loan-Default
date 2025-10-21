@@ -1,4 +1,4 @@
-# Credit Risk Modeling & Prediction System
+# Credit Risk Modeling & Prediction 
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-ff6b6b?style=for-the-badge&logo=streamlit)](https://credit-risk-predicti0n.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)](https://www.python.org/)
