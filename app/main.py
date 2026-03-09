@@ -2,11 +2,14 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+
+st.set_page_config(layout="wide")
 from app import load_models
 
 #Load the trained model and scaler
 xgboost, scaler = load_models()
-st.set_page_config(layout="wide")
+
+
 st.markdown("""
         <style>
                .block-container {
