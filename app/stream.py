@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 
-from app import load_models
+from utils import load_models
 
 st.markdown("""
         <style>

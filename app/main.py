@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 
-from app import load_models
+from utils import load_models
 
 #Load the trained model and scaler
 xgboost, scaler = load_models()
