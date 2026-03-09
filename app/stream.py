@@ -4,7 +4,7 @@ import streamlit as st
 import numpy as np
 import time
 from pathlib import Path
-st.set_page_config(layout="wide")
+
 
 
 from app import load_models
