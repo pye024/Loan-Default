@@ -5,7 +5,7 @@ import numpy as np
 import time
 from pathlib import Path
 from app import load_models
-
+st.set_page_config(layout="wide")
 st.markdown("""
         <style>
                .block-container {

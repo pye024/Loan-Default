@@ -6,7 +6,7 @@ from app import load_models
 
 #Load the trained model and scaler
 xgboost, scaler = load_models()
-
+st.set_page_config(layout="wide")
 st.markdown("""
         <style>
                .block-container {

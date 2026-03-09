@@ -4,8 +4,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 MODELS_DIR = BASE_DIR / 'models'
 
-st.set_page_config(layout="wide")
-
 @st.cache_resource
 def load_models():
     xgboost = joblib.load(MODELS_DIR / 'xgboost.pkl')
