@@ -9,7 +9,7 @@
 
 ## Project Summary
 
-This project delivers a production-ready credit risk prediction system that helps financial institutions make data-driven lending decisions. Usingmachine learning techniques, the model achieves 86% AUC on test data and provides actionable business insights for risk management.
+This project delivers a production-ready credit risk prediction system that helps financial institutions make data-driven lending decisions. Using machine learning techniques, the model achieves 95% AUC on test data and provides actionable business insights for risk management.
 
 # [Try the Live Application](https://credit-risk-predicti0n.streamlit.app/)
 
@@ -32,35 +32,39 @@ For a detailed, scrollable walkthrough of this project, visit the Full Project W
 
 ## Features
 
-- **High-Performance ML Models**: XGBoost classifier achieving 86% AUC
+- **High-Performance ML Models**: XGBoost classifier achieving 95% AUC
 - **Interactive Web Application**: User-friendly Streamlit interface
 - **Production-Ready Deployment**: Docker containerization for scalability
 - **Comprehensive Analysis**: Complete EDA and feature engineering pipeline
 
 
 ##  Project Structure
-
 ```
-├──  Data Analysis & EDA     → notebooks/
+├──  Data Analysis & EDA     → notebooks/prep_EDA.ipynb
+├──  Model Training          → notebooks/modeltraining.ipynb
 ├──  Trained Models          → models/
-├──  Web Application         → app/app.py
+├──  Web Application         → app/
+│    ├── Manual Prediction   → app/main.py
+│    └── Live Stream         → app/stream.py
 ├──  Docker Configuration    → Dockerfile
 └──  Requirements            → requirements.txt
 ```
 
 ### Model Performance
-| Model | AUC Score | Precision | Recall |
-|-------|-----------|-----------|---------|
-| **XGBoost** | **86%** | 92% | 87% |
-| Random Forest | 84% | 87% | 85% |
-| Logistic Regression| 74% | 70% | 75% |
+| Model               | AUC  | Precision           | Recall           | F1           |
+|---------------------|------|---------------------|------------------|--------------|
+| **XGBoost**         | 0.95 | 0.92                | 0.76             | 0.83         |
+| Logistic Regression | 0.83 | 0.47                | 0.71             | 0.56         |
+| Random Forest       | 0.93 | 0.79                | 0.76             | 0.78         |
+
+
 
 ### Key Predictive Features
-- Debt-to-income ratio
-- Credit utilization
-- Previous Default history
-- Employment length
-- Loan amount relative to income
+- Loan-to-income ratio
+- Interest rate
+- Home ownership
+- Previous default history
+- Loan grade
 
 ##  Technology Stack
 
