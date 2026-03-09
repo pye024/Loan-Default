@@ -5,6 +5,6 @@ scikit-learn
 xgboost
 joblib
 imblearn
-streamlit
+streamlit==1.43.0
 kagglehub
 numpy
