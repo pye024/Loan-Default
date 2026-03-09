@@ -24,7 +24,7 @@ For a detailed, scrollable walkthrough of this project, visit the Full Project W
 
 <div align="center">
 
-![Credit Risk App Interface](images/app.png)
+![Credit Risk App Demo](images/gif.gif)
 
 *Interactive web interface for real-time credit risk assessment*
 
